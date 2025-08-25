@@ -1,0 +1,5 @@
+python human_activity_reco.py -m resnet-34_kinetics.onnx -c action_recognition_kinetics.txt -i "my video file.mp4"
+  
+
+for live camera use the below command
+python human_activity_reco.py -m resnet-34_kinetics.onnx -c action_recognition_kinetics.txt
